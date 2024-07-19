@@ -29,32 +29,34 @@ This project demonstrates a basic GraphQL server setup using Apollo Server. The 
 ### Types
 
 - **Game**
-  ```graphql
-  type Game {
+    ```graphql
+    type Game {
     id: ID!
     title: String!
     platform: [String!]!
     reviews: [Review!]
-  }```
+    }
+    ```
 
 - **Review**
-```graphql
-type Review {
-  id: ID!
-  rating: String!
-  content: String!
-  game: Game!
-  author: Author!
-}
-```
+    ```graphql
+    type Review {
+    id: ID!
+    rating: String!
+    content: String!
+    game: Game!
+    author: Author!
+    }
+    ```
 - **Author**
-```graphql
-type Author {
-  id: ID!
-  name: String!
-  verified: Boolean!
-  reviews: [Review!]
-}
+    ```graphql
+    type Author {
+    id: ID!
+    name: String!
+    verified: Boolean!
+    reviews: [Review!]
+    }
+    ```
 
 
 ## Coures credits
