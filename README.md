@@ -59,6 +59,6 @@ This project demonstrates a basic GraphQL server setup using Apollo Server. The 
     ```
 
 
-## Coures credits
+## Course credits
 
 Freecodecamp.org
