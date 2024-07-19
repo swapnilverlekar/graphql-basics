@@ -35,11 +35,10 @@ This project demonstrates a basic GraphQL server setup using Apollo Server. The 
     title: String!
     platform: [String!]!
     reviews: [Review!]
-  }
-```
+  }```
 
 - **Review**
-  ```graphql
+```graphql
 type Review {
   id: ID!
   rating: String!
@@ -48,16 +47,15 @@ type Review {
   author: Author!
 }
 ```
-
 - **Author**
-  ```graphql
+```graphql
 type Author {
   id: ID!
   name: String!
   verified: Boolean!
   reviews: [Review!]
 }
-```
+
 
 ## Coures credits
 
